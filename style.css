@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    
+}
+.sidebar {
+    height: 100%;
+    backface-visibility: hidden;
+    position: fixed;
+    top: 0px;
+    left: 127px;
+}
+.menu {
+    width: 275px;
+    height: 100%;
+    padding: 0px 12px;
+}
+.logo {
+    fill: #d6d9db;
+    height: 50px;
+    width: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.twitter:hover {
+    background-color: rgba(40, 40, 40, 0.484);
+    transition-duration: 0.2s;
+    border-radius: 9999px;
+}
+
+.banner-section .icons {
+    width: 26.5px;
+    height: 26.5px;
+    margin-right: 16px;
+    fill: #d6d9db;
+    background: none;
+    vertical-align: text-bottom;
+}
+.category {
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 12px;
+    color: #d6d9db;
+}
+.category:hover {
+    background-color: rgba(40, 40, 40, 0.484);
+    transition-duration: 0.2s;
+    border-radius: 9999px;
+    padding: 12px;
+}
+.newtweet_button {
+    display: flex;
+    border-radius: 9999px;
+    background-color: #1d9bf0;
+    height: 52px;
+    width: 225.9px;
+    cursor: pointer;
+    color: #d6d9db;
+    font-size: 17px;
+    font-weight: 700;
+    justify-content: center; 
+    align-items: center;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.account-menu {
+    display: flex;
+    align-items: stretch;
+    margin: 95px 0px;
+    width: 100%;
+    height: 64px;
+}
+.user {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 12px;
+}
+.profile img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.details {
+    max-width: 100%;
+    height: 40px;
+    margin-left: 12px;
+    margin-right: 12px;
+    color: #d6d9db;
+}
+.tweets {
+    height: 100vh;
+    width: 990px;
+    display: flex;
+    padding-left: 402px;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+}
+.details .name {
+    font-weight: 700;
+    max-width: 100%;
+}
+.options {
+    fill: #d6d9db;
+    height: 18.75px; 
+    max-width: 18.75px;
+    display: flex;
+}
+.account-menu:hover {
+    background-color: rgba(40, 40, 40, 0.484);
+    transition-duration: 0.2s;
+    border-radius: 9999px;
+}
+.timeline {
+    max-width: 600px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-style: solid;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-color: rgb(47, 51, 54);
+}
